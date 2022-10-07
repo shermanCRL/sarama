@@ -2,9 +2,10 @@ package sarama
 
 import (
 	"bytes"
-	"compress/gzip"
 	"fmt"
 	"sync"
+
+	"github.com/klauspost/compress/gzip"
 
 	snappy "github.com/eapache/go-xerial-snappy"
 	"github.com/pierrec/lz4/v4"
